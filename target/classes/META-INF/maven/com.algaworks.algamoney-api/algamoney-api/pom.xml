@@ -90,6 +90,12 @@
 		    <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
 		</dependency>
 		
+		<dependency>
+		    <groupId>org.springframework.security</groupId>
+		    <artifactId>spring-security-jwt</artifactId>
+		    <version>1.0.9.RELEASE</version>
+		</dependency>	
+			
 		<!-- Necessário para o funcionamento do Opaque Token -->
 		<dependency>
 		    <groupId>com.nimbusds</groupId>
